@@ -54,13 +54,6 @@ window.addEventListener('load', () => {
   }
   /* Bucket */
   function paintBucket(e) {
-    /* const canvasWidth = 32;
-    const startX = Math.floor(e.offsetX / RESOLUTIONRATE);
-    const startY = Math.floor(e.offsetY / RESOLUTIONRATE);
-    const pixelStack = [[startX, startY]];
-    const imgData = ctx.getImageData(Math.floor(e.offsetX / RESOLUTIONRATE), Math.floor(e.offsetY / RESOLUTIONRATE), 1, 1);
-    const startColor = [imgData.data[0], imgData.data[1], imgData.data[2]];
-    console.log(startColor); */
     ctx.fillStyle = currentColor;
     ctx.rect(0, 0, CANVASSIZE, CANVASSIZE);
     ctx.fill();
